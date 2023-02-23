@@ -1,0 +1,51 @@
+
+.college{
+      background-image: url(collegeBuilding.jpg);
+      background-size:cover;
+      height: 110vh;
+      position:relative;
+      
+}
+.institute h1{
+    padding-top: 0%;
+    text-align: center;
+    text-decoration: double;
+    font-size:50px;
+    text-shadow: 10px;
+    font-style: ;
+}
+.institute p{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:0px;
+    margin-bottom: 20px;
+    color: black;
+}
+.facillities{
+    width: 80%;
+    padding: 0%;
+    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.facillities_information{
+    float: left;
+    width:33.33%%;
+    margin-left:2px;
+}
+.image_responsive{
+    max-width: 100%;
+}
+.college ul{
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+@media screen and(max-width:50px){
+    .college{
+        height: 100%;
+        width: auto;
+       
+        }
+    
+}
