@@ -1,0 +1,63 @@
+body{
+    font-family: 'Baloo 2', cursive;
+font-family: 'Rowdies', cursive;
+font-family: 'Source Serif 4', sans-serif;
+}
+.hero_image{
+    background: url(index.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    position: relative;
+}
+
+.hero_wrapper{
+     color: white;
+     position:absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+
+
+.hero_wrapper h1{
+  font-size:2.4rem;
+  font-style: italic;
+  color: aqua;
+  text-align: center;
+
+}
+.hero_wrapper span{
+    text-shadow: blueviolet;
+    text-decoration: double;
+    color:gold;
+    margin-bottom: 1rem;
+
+}
+
+.form_code{
+    text-align: center;
+}
+.form_code .post_code{
+    border: none;
+    border-radius: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    width: 80%;
+    outline: none;
+
+}
+.form_code button{
+    text-align: center;
+    position: relative;
+    margin-right:auto;
+    margin-left: auto;
+    width:20%;
+    outline: none;
+    background-color: chartreuse;
+    border-radius: 4rem;
+    margin-top: 1rem;
+
+}
